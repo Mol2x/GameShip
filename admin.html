@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="ar">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>لوحة تحكم الإدارة - GameShip</title>
+  <link rel="stylesheet" href="css/styles.css">
+  <link rel="stylesheet" href="css/admin.css">
+  <script defer src="js/admin.js"></script>
+</head>
+<body>
+  <header>
+    <div class="container">
+      <h1>لوحة تحكم الإدارة</h1>
+      <nav>
+        <ul>
+          <li><a href="index.html">الرئيسية</a></li>
+          <li><a href="admin.html">الطلبات</a></li>
+          <li><a href="#">إعدادات</a></li>
+          <li><a href="#">تسجيل الخروج</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+  <section id="admin-orders">
+    <div class="container">
+      <h2>متابعة الطلبات</h2>
+      <table>
+        <thead>
+          <tr>
+            <th>رقم الطلب</th>
+            <th>اسم العميل</th>
+            <th>اللعبة</th>
+            <th>المبلغ</th>
+            <th>الحالة</th>
+            <th>الإجراءات</th>
+          </tr>
+        </thead>
+        <tbody id="ordersTable">
+          <!-- سيتم تعبئة الطلبات من قاعدة البيانات -->
+        </tbody>
+      </table>
+    </div>
+  </section>
+  <footer>
+    <div class="container">
+      <p>&copy; 2025 GameShip. جميع الحقوق محفوظة.</p>
+    </div>
+  </footer>
+</body>
+</html>

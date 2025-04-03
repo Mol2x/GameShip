@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="ar">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>GameShip - شحن الألعاب بسهولة وأمان</title>
+  <link rel="stylesheet" href="css/styles.css">
+  <script defer src="js/script.js"></script>
+</head>
+<body>
+  <!-- الهيدر -->
+  <header>
+    <div class="container">
+      <h1>GameShip</h1>
+      <nav>
+        <ul>
+          <li><a href="#home">الرئيسية</a></li>
+          <li><a href="#games">الألعاب</a></li>
+          <li><a href="#payment">الدفع</a></li>
+          <li><a href="#offers">العروض</a></li>
+          <li><a href="login.html">تسجيل الدخول</a></li>
+          <li><a href="admin.html">لوحة الإدارة</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <!-- القسم الرئيسي -->
+  <section id="home">
+    <div class="container">
+      <h2>مرحباً بكم في GameShip</h2>
+      <p>تجربة شحن ألعاب احترافية مع أنظمة دفع آمنة ودعم فني على مدار الساعة.</p>
+      <button id="orderNow">اطلب شحن الآن</button>
+    </div>
+  </section>
+
+  <!-- قسم تصنيفات الألعاب -->
+  <section id="games">
+    <div class="container">
+      <h2>تصنيفات الألعاب</h2>
+      <div class="game-category">
+        <div class="game-item">
+          <img src="images/freefire.jpg" alt="فري فاير">
+          <h3>فري فاير</h3>
+          <button class="buy-btn" data-game="freefire">شحن الآن</button>
+        </div>
+        <div class="game-item">
+          <img src="images/pubg.jpg" alt="ببجي">
+          <h3>ببجي</h3>
+          <button class="buy-btn" data-game="pubg">شحن الآن</button>
+        </div>
+        <div class="game-item">
+          <img src="images/cod.jpg" alt="كول أوف ديوتي">
+          <h3>كول أوف ديوتي</h3>
+          <button class="buy-btn" data-game="cod">شحن الآن</button>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- قسم الدفع -->
+  <section id="payment">
+    <div class="container">
+      <h2>أنظمة الدفع</h2>
+      <p>ندعم: PayPal، بطاقات الائتمان، والمحافظ الرقمية.</p>
+      <div id="paymentOptions">
+        <button id="paypalBtn">دفع عبر PayPal</button>
+        <button id="creditCardBtn">دفع ببطاقة الائتمان</button>
+      </div>
+    </div>
+  </section>
+
+  <!-- قسم العروض والخصومات -->
+  <section id="offers">
+    <div class="container">
+      <h2>العروض والخصومات</h2>
+      <p>استفد من العروض الخاصة، الخصومات التلقائية، ونظام النقاط والمكافآت.</p>
+    </div>
+  </section>
+
+  <!-- قسم الدعم والتواصل -->
+  <section id="contact">
+    <div class="container">
+      <h2>دعم العملاء</h2>
+      <form id="contactForm">
+        <label for="name">الاسم:</label>
+        <input type="text" id="name" name="name" required>
+        
+        <label for="email">البريد الإلكتروني:</label>
+        <input type="email" id="email" name="email" required>
+        
+        <label for="message">رسالتك:</label>
+        <textarea id="message" name="message" required></textarea>
+        
+        <button type="submit">إرسال</button>
+      </form>
+    </div>
+  </section>
+
+  <!-- الفوتر -->
+  <footer>
+    <div class="container">
+      <p>&copy; 2025 GameShip. جميع الحقوق محفوظة.</p>
+      <div class="footer-links">
+        <a href="#">من نحن</a> |
+        <a href="#">الشروط والأحكام</a> |
+        <a href="#">سياسة الخصوصية</a> |
+        <a href="#">اتصل بنا</a>
+      </div>
+      <div class="social-links">
+        <a href="#">Instagram</a> |
+        <a href="#">Twitter</a> |
+        <a href="#">YouTube</a>
+      </div>
+    </div>
+  </footer>
+</body>
+</html>
